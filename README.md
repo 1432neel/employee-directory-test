@@ -28,13 +28,15 @@ A small full-stack employee directory built for a timed coding assignment.
 The script creates a database named `employee_directory` and the `employees` table.
 
 ## 2. Configure and start the PHP API
-The API is configured in `backend/config.php`. Defaults:
-- Host: `127.0.0.1`
-- Database: `employee_directory`
-- Username: `root`
-- Password: empty
+The API is configured in `backend/config.php`.
 
-Update those values if your local MySQL credentials differ.
+Default local configuration:
+- Host: `127.0.0.1`
+- Database: `neel_employee_directory`
+- Username: `root`
+- Password: empty (default XAMPP setup)
+
+Update these values according to your local MySQL configuration.
 
 Copy the `backend` folder into your web root, for example:
 `C:\xampp\htdocs\employee-directory-test\backend`
